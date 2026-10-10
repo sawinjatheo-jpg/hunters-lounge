@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hunters Lounge Shianda | Bar, Restaurant & Accommodation in Mumias</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+  body{background:#0f0f0f;color:#fff;line-height:1.6}
+  header{position:fixed;top:0;width:100%;background:rgba(0,0,0,0.95);display:flex;justify-content:space-between;align-items:center;padding:14px 7%;z-index:1000;border-bottom:1px solid #d4af3720}
+  header h2{color:#d4af37;letter-spacing:1px;font-size:22px}
+  header h2 span{color:#fff;font-weight:300;font-size:14px;display:block;letter-spacing:3px}
+  header nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:14px}
+  header nav a:hover{color:#d4af37}
+  .hero{height:100vh;background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1600') center/cover;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+  .hero h1{font-size:52px;color:#d4af37;line-height:1.1}
+  .hero h1 span{color:#fff;display:block;font-size:22px;margin-top:10px;font-weight:300;letter-spacing:4px}
+  .hero p{font-size:18px;max-width:600px;margin:15px 0;color:#ddd}
+  .btn{background:#d4af37;color:#000;padding:13px 32px;text-decoration:none;font-weight:bold;border-radius:30px;display:inline-block;margin-top:12px;transition:0.3s}
+  .btn:hover{background:#fff}
+  section{padding:70px 7%}
+  .title{text-align:center;margin-bottom:40px}
+  .title h2{font-size:36px;color:#d4af37}
+  .title p{color:#aaa}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+  .card{background:#1a1a1a;border-radius:14px;overflow:hidden;border:1px solid #222}
+  .card img{width:100%;height:220px;object-fit:cover}
+  .card div{padding:20px}
+  .card h3{color:#d4af37;margin-bottom:8px}
+  .price{color:#d4af37;font-weight:bold;font-size:19px;margin-top:10px}
+  .contact{background:#1a1a1a;text-align:center}
+  .badge{display:inline-block;background:#d4af3720;color:#d4af37;padding:4px 12px;border-radius:20px;font-size:12px;margin-bottom:8px;border:1px solid #d4af3740}
+  footer{background:#000;text-align:center;padding:25px;color:#666;font-size:14px}
+  @media(max-width:650px){.hero h1{font-size:34px} header{flex-direction:column;gap:8px}}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>HUNTERS LOUNGE <span>SHIANDA - MUMIAS</span></h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#bar">Bar</a>
+    <a href="#restaurant">Restaurant</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>HUNTERS LOUNGE <span>SHIANDA - MUMIAS</span></h1>
+  <p>The Home of Good Vibes in Western Kenya. Premium bar, delicious food, and comfortable rooms.</p>
+  <a href="https://wa.me/254700000000?text=Habari%20Hunters%20Lounge%20Niko%20Shianda%20nataka%20ku-book" class="btn">Book on WhatsApp</a>
+</div>
+
+<section id="bar">
+  <div class="title"><h2>Lounge & Bar</h2><p>Cold drinks, great music, Hunters experience</p></div>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800"><div><span class="badge">MOST POPULAR</span><h3>Hunters Cocktail Bar</h3><p>From local brews to premium whiskeys & cocktails. DJ weekends, football live.</p></div></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"><div><h3>Choma Zone</h3><p>Best mbuzi choma in Mumias - marinated the Hunters way. With kachumbari & ugali.</p></div></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1560512823-5a67de16c04b?w=800"><div><h3>VIP & Birthdays</h3><p>Private booths for birthdays, ruracios, and after-work meetings.</p></div></div>
+  </div>
+</section>
+
+<section id="restaurant">
+  <div class="title"><h2>Restaurant</h2><p>African & Swahili Dishes - Made Fresh</p></div>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800"><div><h3>Local Favorites</h3><p>Ugali, fish from Lake Victoria, managu, beef fry, and chicken wet fry.</p></div></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"><div><h3>Family Dining</h3><p>Perfect for lunch, family Sundays, and visitors from Kakamega & Mumias town.</p></div></div>
+  </div>
+</section>
+
+<section id="rooms" class="rooms">
+  <div class="title"><h2>Accommodation - Lala Salama</h2><p>Clean, Secure, Self-contained rooms in Shianda</p></div>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800"><div><h3>Standard Room</h3><p>1 Bed, Hot Shower, Wi-Fi, DSTV</p><div class="price">KSh 2,500 / Night</div></div></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800"><div><h3>Deluxe Double</h3><p>Double Bed, Balcony, Smart TV, Breakfast</p><div class="price">KSh 4,000 / Night</div></div></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800"><div><h3>Hunters Suite</h3><p>Spacious, Private Sitting Room, Best for couples</p><div class="price">KSh 6,500 / Night</div></div></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="title"><h2>Karibu Hunters Lounge</h2></div>
+  <p>
+    📍 <b>Location:</b> Shianda Market, Mumias - Kakamega Road, Kakamega County<br>
+    📞 <b>Call / WhatsApp:</b> 07XX XXX XXX <br>
+    💰 <b>Lipa na M-Pesa / Airtel Money Till:</b> XXXXXX<br>
+    🕒 <b>Open:</b> 10:00 AM - Late, Monday to Sunday
+  </p>
+  <br>
+  <a class="btn" href="https://wa.me/254700000000">WhatsApp Us Now</a>
+  <a class="btn" style="background:#fff;margin-left:10px" href="tel:+254700000000">Call Now</a>
+  <br><br>
+  <p style="color:#888">Google Maps: Search "Hunters Lounge Shianda Mumias"</p>
+</section>
+
+<footer>
+  <p>© 2026 Hunters Lounge Shianda - Mumias | Bar • Restaurant • Accommodation<br>Crafted for Western Kenya</p>
+</footer>
+
+</body>
+</html>
